@@ -9,5 +9,22 @@ Choose the prank you want to from this list:
 * `./speak.sh ["lock your pc"]`: This script will install a cronjob which will say the $1 (default "hello $USER").
 * `./urandom.sh`: This script will add a line at the end of .bashrc that will display random characters each time student opens his terminal.
 
-
 ### You are free to contribute to these pranks by submitting ideas or the pranks directly.
+
+# Quick download
+  ```bash
+  curl -LO https://raw.githubusercontent.com/ju-lit-hein/malveillance/master/mouse.sh
+  ```
+  ```bash
+  curl -LO https://raw.githubusercontent.com/ju-lit-hein/malveillance/master/path.sh
+  ```
+  ```bash
+  curl -LO https://raw.githubusercontent.com/ju-lit-hein/malveillance/master/screen.sh
+  ```
+  ```bash
+  curl -LO https://raw.githubusercontent.com/ju-lit-hein/malveillance/master/mouse.sh
+  ```
+  ```bash
+  curl -LO https://raw.githubusercontent.com/ju-lit-hein/malveillance/master/urandom.sh
+  ```
+  
