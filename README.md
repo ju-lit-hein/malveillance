@@ -5,7 +5,8 @@
 Choose the prank you want to from this list: 
 * `./mouse.sh`: This script will install a cronjob which will move the mouse to random position every minute. *dependency: xdotool*
 * `./screen.sh`: This script will invert the screen of the student. *dependency: xrandr*
-* `./urandom.sh`: This script will add a line at the end of .bashrc that will display random characters each time student opens his terminal. *dependency: cat; this only edit .bashrc so you need to be aware of which shell your victim uses*
+* `./slow.sh` : This script add the line `echo "sleep 1"` in the victim's .bashrc. This will have the effect that each time the victim start a new terminal, it will be 1 second longer to start than the last time. *this only edit .bashrc so you need to be aware of which shell your victim uses*
+* `./urandom.sh`: This script will add a line at the end of .bashrc that will display random characters each time student opens his terminal. *this only edit .bashrc so you need to be aware of which shell your victim uses*
 
 
 ### You are free to contribute to these pranks by submitting ideas or the pranks directly if you want to code it yourself.
